@@ -64,9 +64,13 @@ button:disabled{
     .container{
         background-position: center center;
         background-size: cover;
+        flex-direction: column; 
+        justify-content: flex-end; 
+        align-items: center;
     }
     button{
         box-shadow: 5px 5px 30px 20px rgba(black, black black, .5);
+        margin-bottom: 5%;
     }
     p{
         text-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 1);
